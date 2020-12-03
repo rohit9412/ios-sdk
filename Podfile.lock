@@ -1,5 +1,5 @@
 PODS:
-  - JuspaySafeBrowser (0.1.57)
+  - JuspaySafeBrowser (0.1.65)
 
 DEPENDENCIES:
   - JuspaySafeBrowser (~> 0.1.57)
@@ -9,8 +9,8 @@ SPEC REPOS:
     - JuspaySafeBrowser
 
 SPEC CHECKSUMS:
-  JuspaySafeBrowser: 8b2e9ef1b99b360b334656a8eaf20b30246cd172
+  JuspaySafeBrowser: b23aa291e2dfa9bbe3c48b2a2cad13d47450171d
 
-PODFILE CHECKSUM: 9788f7916a6679c9cc803364a7246dcd6b65b7e0
+PODFILE CHECKSUM: 00e04a0b790c4dbcb04765a488c901d8ac45e1ea
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.10.0

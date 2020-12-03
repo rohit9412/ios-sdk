@@ -19,13 +19,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		34B74B71FA2D64F6F20D50C9639EC586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		454989D7A2C1AFA4590F22451643DA00 /* Pods-Instamojo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC836A1856A60AF7B231AD6201D25D /* Pods-Instamojo-dummy.m */; };
-		F4C8B0B6DA1CD250C695AE9BD568F58A /* Pods-Instamojo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F601503B3E28F38F7E9B6DF6FFA9A6C /* Pods-Instamojo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		268A7D968810A621D767760B6A97488D /* Pods-Instamojo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC836A1856A60AF7B231AD6201D25D /* Pods-Instamojo-dummy.m */; };
+		40977365EE2CEFDB073400C78B867EB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A5853B5251DBB872D6E4AF47386196D5 /* Pods-Instamojo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F601503B3E28F38F7E9B6DF6FFA9A6C /* Pods-Instamojo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		72BE49E9C2D05684479AEAF81AD53537 /* PBXContainerItemProxy */ = {
+		88E600AF6E878387D3F806737B2D916D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,37 +35,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B8E47D0252AE58308F28FD0035A17A4 /* JuspayCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuspayCodes.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JuspayCodes.h; sourceTree = "<group>"; };
+		0B59F72413113F36EFB9AB6DA0BD81DA /* JuspaySafeBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JuspaySafeBrowser.debug.xcconfig; sourceTree = "<group>"; };
 		1F601503B3E28F38F7E9B6DF6FFA9A6C /* Pods-Instamojo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Instamojo-umbrella.h"; sourceTree = "<group>"; };
 		2370353F0D50BC1C9CBA93D0F664A1EC /* Pods-Instamojo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Instamojo-acknowledgements.plist"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		520B87A677A39774A570F388945EC4E5 /* JuspaySafeBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JuspaySafeBrowser.framework; sourceTree = "<group>"; };
-		60664528C62FDB39D914F91599F663DB /* JuspaySafeBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuspaySafeBrowser.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JuspaySafeBrowser.h; sourceTree = "<group>"; };
+		58B2436994EA897CDEA27530AB146140 /* JuspayCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuspayCodes.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JuspayCodes.h; sourceTree = "<group>"; };
 		614703E42282CEBEB405A69DF1197BC1 /* Pods-Instamojo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Instamojo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		850A10BB7FB4553B9DE094F03E7881AF /* BrowserParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BrowserParams.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/BrowserParams.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8A42223D2848A4E383317A9DA45BEAE9 /* JPLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPLogger.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JPLogger.h; sourceTree = "<group>"; };
 		8BFC836A1856A60AF7B231AD6201D25D /* Pods-Instamojo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Instamojo-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A669E5FE1B6931E467FDDAB3799110FD /* Pods-Instamojo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Instamojo.debug.xcconfig"; sourceTree = "<group>"; };
-		ACCE8CA2DCB1141F930EFFCA0BB57128 /* JPLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPLogger.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JPLogger.h; sourceTree = "<group>"; };
+		AF4B083E53BB35C38A536EABB902DE1E /* JuspaySafeBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JuspaySafeBrowser.framework; sourceTree = "<group>"; };
+		B245E02C215254F261C23F6E767A2D15 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BackButtonHandler.h"; path = "JuspaySafeBrowser.framework/Versions/A/Headers/UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		B4B82638B0A8203D257148BB405159FE /* JPCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPCard.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JPCard.h; sourceTree = "<group>"; };
 		B84EE09E0891050172616686A23A40D6 /* Pods-Instamojo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Instamojo.release.xcconfig"; sourceTree = "<group>"; };
-		BB3C6F0B60F9D88BCB146C7EA76F159E /* JuspaySafeBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = JuspaySafeBrowser.bundle; sourceTree = "<group>"; };
 		BC1C07482F5A912852551FEB09556BDA /* Pods-Instamojo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Instamojo-resources.sh"; sourceTree = "<group>"; };
-		C52BB8085213E9728B59F06E15903241 /* JPTransactionStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPTransactionStatus.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JPTransactionStatus.h; sourceTree = "<group>"; };
-		CE0567F1DE93E7BF316F7D7236B385A3 /* JPCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPCard.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JPCard.h; sourceTree = "<group>"; };
+		C0DC8C9F41D1C42CA76FFE2BE7BEE335 /* JuspaySafeBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuspaySafeBrowser.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JuspaySafeBrowser.h; sourceTree = "<group>"; };
+		C5E222B1D49AEAF342A059844860ED68 /* JPTransactionStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPTransactionStatus.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JPTransactionStatus.h; sourceTree = "<group>"; };
 		D131B05C2D6DD86E4C6C4C34DA67D14E /* Pods-Instamojo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Instamojo.modulemap"; sourceTree = "<group>"; };
+		D6D8A4768D7DDBF72582D0670F11B31E /* BrowserParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BrowserParams.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/BrowserParams.h; sourceTree = "<group>"; };
 		E4811386A764628888DDBEB8AF9D2D9C /* Pods_Instamojo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Instamojo.framework; path = "Pods-Instamojo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6381C90326F6992BE04D7F0D4D968EF /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BackButtonHandler.h"; path = "JuspaySafeBrowser.framework/Versions/A/Headers/UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
 		EF4C4E57F8C2BC540536FBE52F0237E8 /* Pods-Instamojo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Instamojo-Info.plist"; sourceTree = "<group>"; };
-		F4EFDD7B8873E753FCC75A388C7E6102 /* JuspaySafeBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JuspaySafeBrowser.xcconfig; sourceTree = "<group>"; };
-		F6AC1B3CC16F1B7D9FC0AB04AEFCF29E /* JuspaySafeBrowserHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuspaySafeBrowserHeader.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JuspaySafeBrowserHeader.h; sourceTree = "<group>"; };
+		F25F7705C3B2F52D6347E639EDF904CC /* JuspaySafeBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JuspaySafeBrowser.release.xcconfig; sourceTree = "<group>"; };
+		F6B4A4E619806C735387816EA3C866CB /* JuspaySafeBrowserHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JuspaySafeBrowserHeader.h; path = JuspaySafeBrowser.framework/Versions/A/Headers/JuspaySafeBrowserHeader.h; sourceTree = "<group>"; };
+		FA48D162691883405EF5B9CBB242E525 /* JuspaySafeBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = JuspaySafeBrowser.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22836E6FDA34A52AA50A75381AFA0224 /* Frameworks */ = {
+		138C1D2D110F330190455F94FE316FAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34B74B71FA2D64F6F20D50C9639EC586 /* Foundation.framework in Frameworks */,
+				40977365EE2CEFDB073400C78B867EB8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +76,17 @@
 		5367EF776953CEA898CC67C415B02723 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				80A5FC75ABC4C9DDB81454F984E500A9 /* JuspaySafeBrowser */,
+				A5239A715E2038802FD3E8855AE494B3 /* JuspaySafeBrowser */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		61C79A921774784680359C88A74B8B70 /* Targets Support Files */ = {
@@ -88,23 +97,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		80A5FC75ABC4C9DDB81454F984E500A9 /* JuspaySafeBrowser */ = {
+		7359EFF31AAF58678DB6C14F54766272 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				850A10BB7FB4553B9DE094F03E7881AF /* BrowserParams.h */,
-				CE0567F1DE93E7BF316F7D7236B385A3 /* JPCard.h */,
-				ACCE8CA2DCB1141F930EFFCA0BB57128 /* JPLogger.h */,
-				C52BB8085213E9728B59F06E15903241 /* JPTransactionStatus.h */,
-				0B8E47D0252AE58308F28FD0035A17A4 /* JuspayCodes.h */,
-				60664528C62FDB39D914F91599F663DB /* JuspaySafeBrowser.h */,
-				F6AC1B3CC16F1B7D9FC0AB04AEFCF29E /* JuspaySafeBrowserHeader.h */,
-				E6381C90326F6992BE04D7F0D4D968EF /* UIViewController+BackButtonHandler.h */,
-				A0E6D05C35C653123C0A0B5A689806A0 /* Frameworks */,
-				CEF58A04C7F6FC0ADA95D218395F2A30 /* Resources */,
-				FBEF951349A121602436C75D5F0549BC /* Support Files */,
+				AF4B083E53BB35C38A536EABB902DE1E /* JuspaySafeBrowser.framework */,
 			);
-			name = JuspaySafeBrowser;
-			path = JuspaySafeBrowser;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		892680770DDD62B78CA6D37AD316C7DF /* Products */ = {
@@ -115,28 +113,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0E6D05C35C653123C0A0B5A689806A0 /* Frameworks */ = {
+		A5239A715E2038802FD3E8855AE494B3 /* JuspaySafeBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				520B87A677A39774A570F388945EC4E5 /* JuspaySafeBrowser.framework */,
+				D6D8A4768D7DDBF72582D0670F11B31E /* BrowserParams.h */,
+				B4B82638B0A8203D257148BB405159FE /* JPCard.h */,
+				8A42223D2848A4E383317A9DA45BEAE9 /* JPLogger.h */,
+				C5E222B1D49AEAF342A059844860ED68 /* JPTransactionStatus.h */,
+				58B2436994EA897CDEA27530AB146140 /* JuspayCodes.h */,
+				C0DC8C9F41D1C42CA76FFE2BE7BEE335 /* JuspaySafeBrowser.h */,
+				F6B4A4E619806C735387816EA3C866CB /* JuspaySafeBrowserHeader.h */,
+				B245E02C215254F261C23F6E767A2D15 /* UIViewController+BackButtonHandler.h */,
+				7359EFF31AAF58678DB6C14F54766272 /* Frameworks */,
+				EB8F9D80D9FD6C28034FEBAF966AB1B0 /* Resources */,
+				C665A5927B5E19F1083F504290FEBDD9 /* Support Files */,
 			);
-			name = Frameworks;
+			name = JuspaySafeBrowser;
+			path = JuspaySafeBrowser;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C665A5927B5E19F1083F504290FEBDD9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				0B59F72413113F36EFB9AB6DA0BD81DA /* JuspaySafeBrowser.debug.xcconfig */,
+				F25F7705C3B2F52D6347E639EDF904CC /* JuspaySafeBrowser.release.xcconfig */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CEF58A04C7F6FC0ADA95D218395F2A30 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BB3C6F0B60F9D88BCB146C7EA76F159E /* JuspaySafeBrowser.bundle */,
-			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/JuspaySafeBrowser";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -153,9 +156,17 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB8F9D80D9FD6C28034FEBAF966AB1B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA48D162691883405EF5B9CBB242E525 /* JuspaySafeBrowser.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F8E116AA9716F4BBE66857EFB2845F2B /* Pods-Instamojo */ = {
@@ -175,23 +186,14 @@
 			path = "Target Support Files/Pods-Instamojo";
 			sourceTree = "<group>";
 		};
-		FBEF951349A121602436C75D5F0549BC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F4EFDD7B8873E753FCC75A388C7E6102 /* JuspaySafeBrowser.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JuspaySafeBrowser";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		52A205C88682DB37685C2E1D2FE8A1C2 /* Headers */ = {
+		E67E40B05842D16BB9209AB0E618CC3F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C8B0B6DA1CD250C695AE9BD568F58A /* Pods-Instamojo-umbrella.h in Headers */,
+				A5853B5251DBB872D6E4AF47386196D5 /* Pods-Instamojo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,17 +202,17 @@
 /* Begin PBXNativeTarget section */
 		92FAF874181ED7F19778776598B3F8D9 /* Pods-Instamojo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3DE4C61D97DE315C3A78C568A431F41 /* Build configuration list for PBXNativeTarget "Pods-Instamojo" */;
+			buildConfigurationList = 3CFB66FC844D6ECE788F43023DDB077C /* Build configuration list for PBXNativeTarget "Pods-Instamojo" */;
 			buildPhases = (
-				52A205C88682DB37685C2E1D2FE8A1C2 /* Headers */,
-				9CF5394663D825572D1C37B96E3CA5EE /* Sources */,
-				22836E6FDA34A52AA50A75381AFA0224 /* Frameworks */,
-				96FBB721D83951CAB7A4772494430822 /* Resources */,
+				E67E40B05842D16BB9209AB0E618CC3F /* Headers */,
+				4C9E4DDB3A4DF5793B0715EC807D32AE /* Sources */,
+				138C1D2D110F330190455F94FE316FAE /* Frameworks */,
+				84EBC5A0EA782E53D5C68E2F4C290476 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E75FDD7F65BCC99EDC71CD4227DC5ABE /* PBXTargetDependency */,
+				A6DB4838984012029E8501F482C1001A /* PBXTargetDependency */,
 			);
 			name = "Pods-Instamojo";
 			productName = "Pods-Instamojo";
@@ -232,6 +234,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 892680770DDD62B78CA6D37AD316C7DF /* Products */;
@@ -245,7 +248,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		96FBB721D83951CAB7A4772494430822 /* Resources */ = {
+		84EBC5A0EA782E53D5C68E2F4C290476 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,30 +258,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9CF5394663D825572D1C37B96E3CA5EE /* Sources */ = {
+		4C9E4DDB3A4DF5793B0715EC807D32AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				454989D7A2C1AFA4590F22451643DA00 /* Pods-Instamojo-dummy.m in Sources */,
+				268A7D968810A621D767760B6A97488D /* Pods-Instamojo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E75FDD7F65BCC99EDC71CD4227DC5ABE /* PBXTargetDependency */ = {
+		A6DB4838984012029E8501F482C1001A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JuspaySafeBrowser;
 			target = D9F1B0D67031FD2FCDCC7B8682C83CD6 /* JuspaySafeBrowser */;
-			targetProxy = 72BE49E9C2D05684479AEAF81AD53537 /* PBXContainerItemProxy */;
+			targetProxy = 88E600AF6E878387D3F806737B2D916D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		26FEF1060778AE18CD2CC909E99765BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B59F72413113F36EFB9AB6DA0BD81DA /* JuspaySafeBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -301,6 +318,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -311,6 +329,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -335,12 +354,25 @@
 			};
 			name = Release;
 		};
-		63818B2C73F3834CD31247BED3CC51CE /* Release */ = {
+		ABAAB3A76008DABA14645B23E99031C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25F7705C3B2F52D6347E639EDF904CC /* JuspaySafeBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9FFDCCA9DFF1A124975812D75E785A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B84EE09E0891050172616686A23A40D6 /* Pods-Instamojo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -369,24 +401,11 @@
 			};
 			name = Release;
 		};
-		69B2F16E045546A54E61954891F54CB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4EFDD7B8873E753FCC75A388C7E6102 /* JuspaySafeBrowser.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -409,6 +428,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -419,6 +439,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -447,25 +468,11 @@
 			};
 			name = Debug;
 		};
-		A3EE2F157F90990E24D440253E281368 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4EFDD7B8873E753FCC75A388C7E6102 /* JuspaySafeBrowser.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FE19207B2DAF1F6539605DBFA3E52882 /* Debug */ = {
+		FD9126127F412195BC56C4095743C9D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A669E5FE1B6931E467FDDAB3799110FD /* Pods-Instamojo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -496,11 +503,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3CFB66FC844D6ECE788F43023DDB077C /* Build configuration list for PBXNativeTarget "Pods-Instamojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9126127F412195BC56C4095743C9D9 /* Debug */,
+				B9FFDCCA9DFF1A124975812D75E785A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -508,17 +524,8 @@
 		78CE6160D73A2953CD38CC49B8EDF01D /* Build configuration list for PBXAggregateTarget "JuspaySafeBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3EE2F157F90990E24D440253E281368 /* Debug */,
-				69B2F16E045546A54E61954891F54CB4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F3DE4C61D97DE315C3A78C568A431F41 /* Build configuration list for PBXNativeTarget "Pods-Instamojo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE19207B2DAF1F6539605DBFA3E52882 /* Debug */,
-				63818B2C73F3834CD31247BED3CC51CE /* Release */,
+				26FEF1060778AE18CD2CC909E99765BD /* Debug */,
+				ABAAB3A76008DABA14645B23E99031C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
