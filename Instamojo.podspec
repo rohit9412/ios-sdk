@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source 		 = { :git => 'https://github.com/Instamojo/ios-sdk.git', :tag => s.version.to_s }
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
-  s.vendored_frameworks = 'Instamojo.framework'
+  s.vendored_frameworks = 'Framework/Instamojo.framework'
   s.resource = 'JuspaySafeBrowser.bundle'
 end
